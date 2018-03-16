@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/acceuil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_acceuil"
+        android:orderInCategory="100"
+        android:title="acceuil"
+        app:showAsAction="withText"></item>
+    <item
+        android:id="@+id/créativités"
+        android:orderInCategory="100"
+        android:title="Créativités"
+        android:icon="@drawable/ic_message"
+        ></item>
+    <item
+        android:id="@+id/Emprunts"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="Emprunts"
+        ></item>
+    <item
+        android:id="@+id/Evenements"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="Evenements"
+        ></item>
+
+    <item
+        android:id="@+id/MaPage"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="Ma page"
+        ></item>
+    <item
+        android:id="@+id/Mesarticles"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="Mes articles"
+        ></item>
+    <item
+        android:id="@+id/MesCommentaires"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="100"
+        android:title="Mes commentaires"
+        ></item>
+    <item
+    android:id="@+id/MesFavoris"
+    android:icon="@drawable/ic_notifications"
+    android:orderInCategory="100"
+    android:title="Mes favoris"
+    ></item>
+    <item
+    android:id="@+id/Reclamation"
+    android:icon="@drawable/ic_notifications"
+    android:orderInCategory="100"
+    android:title="Reclamation"></item>
+
+</menu>

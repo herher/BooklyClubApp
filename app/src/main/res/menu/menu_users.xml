@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ws.com.wstest.Interface.AcceuilActivityUsers"
+    android:background="@color/colorPrimaryDark">
+
+    <item
+        android:id="@+id/action_profil"
+        android:orderInCategory="100"
+        android:title="@string/action_profil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_deconnection"
+        android:orderInCategory="100"
+        android:title="@string/action_deconnection"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acceuil"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_acceuil"
+        android:title="acceuil"
+        />
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_message"
+        android:title="message"
+        />
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notifications"
+        android:title="notification"
+        />
+</menu>

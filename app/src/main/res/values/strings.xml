@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Booky Club</string>
+
+    <string name="title_activity_login">Booky Club</string>
+    <string name="title_activity_home">Booky Club</string>
+    <string name="register_title">Register</string>
+    <string name="login_title">Booky Club</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="btnRegister">Register</string>
+
+    <string name="action_message">Message</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_acceuil">Acceuil</string>
+    <string name="action_profil">Profil</string>
+    <string name="action_deconnection">Déconnecter</string>
+
+
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+</resources>
